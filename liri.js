@@ -56,7 +56,7 @@ inquirer
           return eventThis(response.keyword);
         });
     }
-    if(response.whatToDo[0] === 'do-what-it-says'){
+    if(response.whatToDo[0] === 'Do-what-it-says'){
       return doIt();
     }
   });

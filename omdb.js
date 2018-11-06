@@ -8,10 +8,21 @@ let movieThis = function(title){
     if (!err && response.statusCode === 200) {
       let resp = JSON.parse(body);
       // console.log(resp);
+      let rottenTomatoes = '';
+      resp.Ratings.forEach(rating=>{
+        if(rating.Source ==='Rotten Tomatoes'){
+          rottenTomatoes = rating.Value;
+          return rating.Value;
+        }else{
+          rottenTomatoes = rating.Value;
+          return "N/A";
+        }
+      });
+      // console.log(resp.Ratings[1].Source);
       data = {title: resp.Title,
               year: resp.Year,
               iMDB: resp.imdbRating,
-              rottenT: resp.Ratings[1].Value,
+              rottenT: rottenTomatoes,
               country: resp.Country,
               language: resp.Language,
               plot: resp.Plot,
