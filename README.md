@@ -6,6 +6,8 @@ You can search for the following using LIRI-Bot:
 2. Spotify-this-song
 3. Movie-this
 4. Do-what-it-says
+![GitHub menu](/images/menu.PNG)
+Format: ![Menu](./images/menu.PNG)
 
 ## Concert-this
 This option lets to search for concerts of any artist of your choice. It prints and logs the following information about the concert:
