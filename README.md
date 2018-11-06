@@ -43,3 +43,8 @@ This options checks the file random.txt and splice it into an array by delimitin
 It takes the zero index of the array as the command and first index as the command parameter and execute the command.
 It also logs the same information to log.txt file for historical purpose along with the user choice and input.
 ![App DoWhatItSays](/images/doWhatItSays.PNG)
+
+
+## Log File
+The log file is continously updated with the command and the response.
+![App log](/images/log.PNG)
