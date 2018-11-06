@@ -6,8 +6,7 @@ You can search for the following using LIRI-Bot:
 2. Spotify-this-song
 3. Movie-this
 4. Do-what-it-says
-![GitHub menu](/images/menu.PNG)
-Format: ![Menu](./images/menu.PNG)
+![App Menu](/images/menu.PNG)
 
 ## Concert-this
 This option lets to search for concerts of any artist of your choice. It prints and logs the following information about the concert:
@@ -15,6 +14,7 @@ This option lets to search for concerts of any artist of your choice. It prints 
 - Location
 - Date
 It also logs the same information to log.txt file for historical purpose along with the user choice and input.
+![App Concert](/images/concertThis.PNG)
 
 ## Spotify-this-song
 This option uses the spotify api to get data about the track the user searches for. It prints the following information about the track:
@@ -23,6 +23,7 @@ This option uses the spotify api to get data about the track the user searches f
 - artists
 - preview link to spotify song
 It also logs the same information to log.txt file for historical purpose along with the user choice and input.
+![App Spotify](/images/spotifySong.PNG)
 
 ## Movie-this
 This option uses the OMDB api to get the data about the movie user searched for. It prints the following information about the track:
@@ -35,8 +36,10 @@ This option uses the OMDB api to get the data about the movie user searched for.
 - Plot of the movie
 - Actors
 It also logs the same information to log.txt file for historical purpose along with the user choice and input.
+![App Movie](/images/movieThis.PNG)
 
 ## Do-what-it-say
 This options checks the file random.txt and splice it into an array by delimiting the text at ",". 
 It takes the zero index of the array as the command and first index as the command parameter and execute the command.
 It also logs the same information to log.txt file for historical purpose along with the user choice and input.
+![App DoWhatItSays](/images/doWhatItSays.PNG)

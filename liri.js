@@ -15,7 +15,7 @@ inquirer
     }
   ])
   .then(response=>{
-    console.log(response);
+    // console.log(response);
     if(response.whatToDo[0] === 'Movie-this'){
       inquirer
         .prompt([
